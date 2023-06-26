@@ -1,5 +1,5 @@
 # SIMPLE_CONTRACT_BOT
- Can be used to buy against a DEX of an EVM based blockchain, includes tax limit and honeypot checker
+ Can be used to buy against a DEX of an EVM based blockchain that matches Pancakeswap V2 interfaces, includes tax limit and honeypot checker
 
 ## Libraries:
 
@@ -8,7 +8,11 @@
 
 ## Commands to run the test against BSC fork:
 
-#### ```ganache-cli --fork=https://bsc-dataseed1.binance.org/ --wallet.totalAccounts 20 --unlock 0x8894E0a0c962CB723c1976a4421c95949bE2D4E3```
+```bash
+ganache-cli --fork=https://bsc-dataseed1.binance.org/ --wallet.totalAccounts 20 --unlock 0x8894E0a0c962CB723c1976a4421c95949bE2D4E3
+```
 
-#### ```truffle compile```
-#### ```truffle test --network developmentT```
+```bash
+truffle compile
+truffle test --network developmentT
+```
