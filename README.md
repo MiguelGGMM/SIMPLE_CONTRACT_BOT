@@ -1,6 +1,8 @@
 # SIMPLE_CONTRACT_BOT
  Can be used to buy against a DEX of an EVM based blockchain that matches Pancakeswap V2 interfaces, includes tax limit and honeypot checker
 
+<p>The objective of this project is PURELY DIDACTIC<p>
+
 ## Libraries:
 
 #### Truffle v5.5.21 (core: 5.5.21)
